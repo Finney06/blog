@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+body a svg{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.container a{
+    color:  rgb(255, 187, 0);
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]{
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid white;
+    background: gray;
+    outline: none;
+}
+
+input[type=number]{
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid white;
+    background: gray;
+    outline: none;
+}
+
+input[type=email]{
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid white;
+    background: gray;
+    outline: none;
+}
+
+input[type=password]{
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid white;
+    background: gray;
+    outline: none;
+}
+
+input[type=button]{
+    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: goldenrod;
+    font-size: 1rem;
+}
+
+input[type=email],::placeholder{
+    color: white;
+}
+
+input[type=password],::placeholder{
+    color: white;
+}
+
+input[type=text],::placeholder{
+    color: white;
+}
+
+input[type=number],::placeholder{
+    color: white;
+}
